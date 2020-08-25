@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     public void  start (View view){
         titleTextView.setVisibility(View.INVISIBLE);
         startButton.setVisibility(View.INVISIBLE);
-        Log.i("hello" , "it worked");
         newConstraintLayout.setVisibility(View.VISIBLE);
     }
     public void prev(View view){
